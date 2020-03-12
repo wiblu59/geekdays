@@ -1,0 +1,127 @@
+body, h1, p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 13vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alatsi';
+    background-color: #006AB3;
+    margin-bottom: 3vh;
+}
+
+header a {
+    color: white;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    background-image: url(name.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    text-align: center;
+}
+
+.legend {
+    font-family: Baloo;
+    width: 75%;
+    text-align: center;
+    font-size: 4rem;
+    margin: auto;
+    margin-bottom: 2.5vh;
+}
+
+.img-result {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.form {
+    font-family: Baloo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 4vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #006AB3;
+    border-radius: 9px;
+    padding: 3.5%;
+}
+
+label, placeholder, input {
+    font-size: 2.42rem;
+    color: black;
+}
+
+.send-button {
+    margin-top: 2%;
+}
+
+.send-button btn {
+    font-size: 1.25rem;
+}
+
+.marvel-img {
+    height: 40vh;
+    background-image: url(marvel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.marvel-logo {
+    height: 15vh;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-picture {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.name-legend {
+    margin-top: 1.25vh;
+    font-family: Baloo;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.title-res {
+    text-decoration: underline;
+}
+
+.desc-res {
+    font-size: 1.5rem;
+}
